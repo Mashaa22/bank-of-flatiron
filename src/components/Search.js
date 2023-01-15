@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function Search() {
+function Search() { 
 
-    return(
+    return (
         <div className="ui large fluid icon input">
         <input
-          type="text"
-          placeholder="Search your Recent Transactions"
-        //   onChange={onChangeHandler}
+                type="text"
+                placeholder="Search your Recent Transactions"
+                // onChange={(e) => {
+                //     setSearch(e.target.value);
+                // }}
         />
         <i className="circular search link icon"></i>
       </div>
