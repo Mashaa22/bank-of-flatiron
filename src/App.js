@@ -7,6 +7,7 @@ function AccountHolder() {
     <div>
       <br></br>
       <Search />
+      <br></br>
       <Table />
     </div>
   );
