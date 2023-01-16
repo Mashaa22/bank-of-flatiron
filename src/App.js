@@ -9,7 +9,6 @@ function AccountHolder() {
       <br></br>
       <Search />
       <Form />
-      <br></br>
       <Table />
     </div>
   );
@@ -17,7 +16,7 @@ function AccountHolder() {
 
 function App() {
   return (
-    <>
+    <div className='container'>
     <br></br>
     <div className="text-center " >
             <div className="ui segment violet inverted">
@@ -27,7 +26,7 @@ function App() {
         </div>
         <AccountHolder />
       </div>
-      </>
+     </div>
   );
 }
 
