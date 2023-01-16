@@ -1,4 +1,14 @@
+import { useState } from "react";
+
 const Form = () => {
+    const [date, setDate] = useState("");
+    const [description, setDescription] = useState("");
+    const [category, setCategory] = useState("");
+    const [amount, setAmount] = useState("")
+    const [id, setId] = useState("")
+  
+
+
     return (
         <form className="row p-3">
             <div className="col-3">

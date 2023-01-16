@@ -15,14 +15,13 @@ function AccountHolder() {
 }
 
 function App() {
+
   return (
     <div className='container'>
     <br></br>
     <div className="text-center " >
-            <div className="ui segment violet inverted">
+            <div className="">
           <h2>The Royal Bank of Flatiron</h2>
-          <br></br>
-          <p> Welcome to the Bank of Flatiron, where you can trust us with all your financial data!</p>
         </div>
         <AccountHolder />
       </div>
