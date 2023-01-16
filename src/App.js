@@ -1,12 +1,14 @@
 import './App.css';
 import Search from './components/Search';
 import Table from './components/Table';
+import Form from './components/Form';
 
 function AccountHolder() {
   return (
     <div>
       <br></br>
       <Search />
+      <Form />
       <br></br>
       <Table />
     </div>

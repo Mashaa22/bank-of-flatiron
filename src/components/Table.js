@@ -4,7 +4,7 @@ const Table = () => {
 
     return (
         <>
-            <table className="table table-stripped table-hover">
+            <table className="table table-striped table-hover">
                 <thead>
                     <th>Date</th>
                     <th>Decsription</th>
