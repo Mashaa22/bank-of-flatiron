@@ -6,10 +6,12 @@ const Table = () => {
         <>
             <table className="table table-striped table-hover">
                 <thead>
+                    <tr>
                     <th>Date</th>
                     <th>Decsription</th>
                     <th>Category</th>
                     <th>Amount</th>
+                    </tr>  
                 </thead>
                 <tbody>
                  < Transaction />
