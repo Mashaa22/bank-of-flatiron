@@ -7,7 +7,17 @@ const Form = () => {
     const [amount, setAmount] = useState("")
     const [id, setId] = useState("")
   
-
+    function handleSubmit(){
+        const transaction = {id,date, description, category, amount};
+    
+        fetch ("http://localhost:8001/transactions",{
+              method:'POST',
+              headers: {
+                'Content-Type':'application/json'
+              },
+              body: JSON.stringify(transaction) 
+            } )
+      }
 
     return (
         <form className="row p-3">
