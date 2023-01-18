@@ -1,5 +1,5 @@
-# JSON Server
-#### 16/12/2022
+# React
+#### 15/01/2023
 #### By Alex Maranga
 
 ## Project Description
@@ -9,31 +9,28 @@
     - Download the zip file under the code tab.
     - Extract files from the zip file.
     - Open the extracted folder with vscode.
-    - on your VS Code terminal run "json-server --watch database.json" to expose our local server
-    - Open index.html file in vscode and right click in the workarea, the navigate to "open liveserver". (The app will open with your default browser).
-    - And the you are good to go.
+    - on your VS Code terminal run "npm install" to install react dependencies
+    - on your VS Code terminal run "npm start" to open the application in a browser
+
 
     #### Requirement
-    Json Server 
+    Install React dependencies
 
 ## BDD
     As a user :
-    - I will able to view the selected albums in the browser.
-    - Fetch a specific album through an input from the form.
-    - Click a 'dummy' purchase button to buy the album.
-    - Leave a like to any album that you love.
-    - Leave a comment to any of the albums selected.
+- I will be able to add transactions on the application
+- I will be able to search transactions made
 
 ## Live Link
 The application is deployed in Github Page
-Here is the link [SoundValley.App](https://mashaa22.github.io/project/)
+Here is the link [bankOfFlatiron.app](https://mashaa22.github.io/bank-of-flatiron/)
 
 ## Bugs
     There is no bugs in the project as per my knowledge on code so far. 
 
 ## Technologies Used
     - HTML and CSS
-    - JS
+    - JSX
     - JSON Server
 
 ## Support/Contact Details
@@ -41,4 +38,4 @@ Here is the link [SoundValley.App](https://mashaa22.github.io/project/)
     - +25412345678
 
 ## License
-Licenced under the [MT-licence](https://github.com/Mashaa22/project/blob/main/license) Copyright (c) 2022 **Alex Maranga
+Licenced under the [MT-licence](https://github.com/Mashaa22/bank-of-flatiron/blob/main/license) Copyright (c) 2022 **Alex Maranga
