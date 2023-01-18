@@ -3,7 +3,7 @@
 #### By Alex Maranga
 
 ## Project Description
-    The application showcases how incorporate HTML, CSS, JavaScript and use of public JSON servers.
+    The application showcases how incorporate HTML, CSS, JavaScript, JSX and JSON server.
 
 ## Setup/Installation Requirements
     - Download the zip file under the code tab.
