@@ -22,7 +22,7 @@ function App() {
     <br></br>
     <div className="text-center " >
             <div className="">
-          <h2>The Royal Bank of Flatiron</h2>
+          <h2 className='header'>The Royal Bank of Flatiron</h2>
         </div>
         <AccountHolder />
       </div>

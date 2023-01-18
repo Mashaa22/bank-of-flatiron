@@ -21,14 +21,12 @@ const Form = () => {
               })
     }
     
-   const onSubmit = function handleSubmit(e) {
+   function handleSubmit(e) {
         e.preventDefault()
-        console.log("")
     }
-    
 
     return (
-        <form className="row p-3" {...onSubmit}>
+        <form className="row p-3" {...handleSubmit}>
             <div className="col-3" key={setId}>
                 <input name="date" onChange={(event) => { setDate(event.target.value) }} value={date} className="form-control form-control-sm" type="date" placeholder="text" aria-label=".form-control-sm example" />
             </div>
