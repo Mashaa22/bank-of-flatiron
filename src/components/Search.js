@@ -1,20 +1,10 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React from "react";
 
-function Search() { 
-
-    return (
-        <div className="ui large fluid icon input">
-        <input
-                type="text"
-                placeholder="Search your Recent Transactions"
-                // onChange={(e) => {
-                //     setSearch(e.target.value);
-                // }}
-        />
-        <i className="circular search link icon"></i>
-      </div>
-    )
-
+function Search(e) {
+  return (
+    <>
+      
+    </>
+  )
 }
 export default Search;

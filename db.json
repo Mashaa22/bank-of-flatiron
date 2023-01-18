@@ -111,6 +111,13 @@
       "description": "venmo",
       "category": "gift",
       "amount": "2000"
+    },
+    {
+      "id": 33,
+      "date": "2023-01-06",
+      "description": "bus receipt",
+      "category": "luxury",
+      "amount": "3000"
     }
   ]
 }
